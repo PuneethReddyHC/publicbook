@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
+import logo from '../assets/logo.svg'
 
 export default function Footer() {
   return (
@@ -7,8 +8,8 @@ export default function Footer() {
       <div className="max-w-[1200px] mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
-            <Link to="/" className="font-heading font-bold text-xl">
-              <span className="text-saffron">Public</span>Book
+            <Link to="/">
+              <img src={logo} alt="PublicBook" className="h-8" />
             </Link>
             <p className="text-text-muted text-sm mt-3 leading-relaxed">
               India's first open civic data platform. Making public information truly public.

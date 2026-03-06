@@ -1,0 +1,35 @@
+<svg width="360" height="56" viewBox="0 0 400 56" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="n-saffron" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFB366"></stop>
+            <stop offset="100%" stop-color="#FF9933"></stop>
+        </linearGradient>
+        <linearGradient id="n-green" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2ECC40"></stop>
+            <stop offset="100%" stop-color="#138808"></stop>
+        </linearGradient>
+    </defs>
+    <g transform="translate(4,5)">
+        <line x1="22" y1="4" x2="22" y2="36" stroke="#333" stroke-width="1.8" stroke-linecap="round"></line>
+        <path d="M21,5 C21,5 16,3 8,3 C5,3 3,4 3,7 L3,31 C3,33 5,34 8,34 C16,34 21,36 21,36"
+            fill="none" stroke="url(#n-saffron)" stroke-width="2.2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        <path d="M23,5 C23,5 28,3 36,3 C39,3 41,4 41,7 L41,31 C41,33 39,34 36,34 C28,34 23,36 23,36"
+            fill="none" stroke="url(#n-green)" stroke-width="2.2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        <rect x="6" y="40" width="10" height="2.5" rx="1.2" fill="#FF9933"></rect>
+        <rect x="17" y="40" width="10" height="2.5" fill="#FFFFFF" opacity="0.5"></rect>
+        <rect x="28" y="40" width="10" height="2.5" rx="1.2" fill="#138808"></rect>
+    </g>
+    <text x="56" y="24" font-family="'Outfit',sans-serif" font-weight="900" font-size="26"
+        fill="url(#n-saffron)" letter-spacing="-0.5">Public</text>
+    <text x="149" y="24" font-family="'Outfit',sans-serif" font-weight="900" font-size="26"
+        fill="#FAFAFA" letter-spacing="-0.5">Book</text>
+    <text x="215" y="24" font-family="'Outfit',sans-serif" font-weight="700" font-size="14"
+        fill="#444">.in</text>
+    <text x="56" y="44" font-family="'DM Sans',sans-serif" font-weight="500" font-size="9"
+        fill="#555" letter-spacing="2">India's Public Information. Actually Public.</text>
+    <rect x="56" y="29" width="10" height="1.8" rx="0.9" fill="#FF9933"></rect>
+    <rect x="67" y="29" width="10" height="1.8" fill="#FFF" opacity="0.4"></rect>
+    <rect x="78" y="29" width="10" height="1.8" rx="0.9" fill="#138808"></rect>
+</svg>
