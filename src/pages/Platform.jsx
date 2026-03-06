@@ -76,9 +76,9 @@ const modules = [
     name: 'Citizen AI Agent',
     icon: MessageCircle,
     description:
-      'Ask in your language, get answers instantly. WhatsApp-based AI assistant supporting 12+ Indian languages via BHASHINI. Citizens can check land records, find eligible schemes, track public works, and get agricultural advice \u2014 all through natural conversation in their mother tongue.',
+      'Ask in your language, get answers instantly. WhatsApp-based AI assistant supporting 12+ Indian languages via Sarvam AI. Citizens can check land records, find eligible schemes, track public works, and get agricultural advice \u2014 all through natural conversation in their mother tongue.',
     stat: '12+ Indian languages supported',
-    sources: ['bhashini.gov.in', 'Sarvam AI'],
+    sources: ['sarvam.ai'],
     link: '/platform/ai-agent',
   },
   {

@@ -48,7 +48,7 @@ export default function AIAgent() {
               </span>
             ))}
           </div>
-          <p className="text-text-muted text-sm mt-6">Powered by BHASHINI — India's national language translation platform, ensuring accurate translations across all scheduled languages.</p>
+          <p className="text-text-muted text-sm mt-6">Powered by Sarvam AI — India's leading full-stack Indic language AI platform, providing speech-to-text, translation, and text-to-speech across all scheduled languages.</p>
         </AnimatedSection>
       </ModuleSection>
 
@@ -85,7 +85,7 @@ export default function AIAgent() {
           <FeatureCard icon={Globe} title="Land Record Lookups" description="Check RTC, mutation status, village maps by simply typing the survey number in any supported language." />
           <FeatureCard icon={Bot} title="Scheme Eligibility" description="Get personalized scheme recommendations by answering a few questions about age, income, occupation, and location." />
           <FeatureCard icon={Mic} title="Voice Messages" description="Send voice notes in your language. The AI transcribes, understands, and responds in the same language." />
-          <FeatureCard icon={Languages} title="Real-time Translation" description="Seamless translation between user's language and government data using BHASHINI APIs." />
+          <FeatureCard icon={Languages} title="Real-time Translation" description="Seamless translation between user's language and government data using Sarvam AI APIs." />
           <FeatureCard icon={Phone} title="IVR Fallback" description="For feature phones and non-smartphone users — dial a number, navigate by pressing keys, hear information read aloud." />
           <FeatureCard icon={Radio} title="USSD Support" description="Even without internet — use USSD codes (*123#) to query basic land and scheme information on any phone." />
         </div>
@@ -97,7 +97,7 @@ export default function AIAgent() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               {[
                 { step: '01', title: 'User Message', desc: 'Citizen sends text or voice in any language via WhatsApp' },
-                { step: '02', title: 'Translation', desc: 'BHASHINI translates to English. Sarvam AI handles speech-to-text.' },
+                { step: '02', title: 'Translation', desc: 'Sarvam AI handles translation, speech-to-text, and text-to-speech across 12+ Indic languages.' },
                 { step: '03', title: 'NLU Pipeline', desc: 'Intent detection → entity extraction → database query → response generation' },
                 { step: '04', title: 'Response', desc: 'Answer translated back to user\'s language and sent via WhatsApp' },
               ].map((item, i) => (
@@ -115,7 +115,6 @@ export default function AIAgent() {
       <ModuleSection label="DATA SOURCES" title="Powered By">
         <AnimatedSection>
           <div className="flex flex-wrap gap-3">
-            <DataSourceChip name="BHASHINI" url="https://bhashini.gov.in" />
             <DataSourceChip name="Sarvam AI" url="https://sarvam.ai" />
             <DataSourceChip name="WhatsApp Business API" url="https://business.whatsapp.com" />
             <DataSourceChip name="All PublicBook Modules" url="#" />

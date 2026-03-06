@@ -88,7 +88,7 @@ const categories = [
       { name: 'OGD', fullName: 'Open Government Data Platform', url: 'https://data.gov.in', desc: 'India\'s open data portal with 4L+ datasets' },
       { name: 'NDSAP', fullName: 'National Data Sharing and Accessibility Policy', url: 'https://data.gov.in/ndsap', desc: 'Policy framework for government data sharing' },
       { name: 'DPDPA', fullName: 'Digital Personal Data Protection Act 2023', url: 'https://meity.gov.in', desc: 'India\'s data protection law — compliance framework' },
-      { name: 'BHASHINI', fullName: 'BHASHINI National Language Translation Mission', url: 'https://bhashini.gov.in', desc: 'AI translation for 22 scheduled Indian languages' },
+      { name: 'Sarvam AI', fullName: 'Sarvam AI — Full-Stack Indic Language AI', url: 'https://sarvam.ai', desc: 'Speech-to-text, translation, and text-to-speech for 12+ Indian languages' },
       { name: 'DigiLocker/UMANG', fullName: 'DigiLocker & UMANG', url: 'https://digilocker.gov.in', desc: 'Digital document storage and unified mobile governance' },
     ]
   },

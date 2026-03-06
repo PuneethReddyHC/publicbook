@@ -9,7 +9,7 @@ const solutionModules = [
   { module: 'Public Works', sanskrit: 'Karyagati', fn: 'Fund tracking, citizen feedback', sources: 'eGramSwaraj, NREGA' },
   { module: 'Education', sanskrit: 'Vidya Darpan', fn: 'Schools, scholarships, NEP', sources: 'UDISE+, DIKSHA' },
   { module: 'Governance', sanskrit: 'Jana Pratinidhi', fn: 'Representatives, elections', sources: 'LGD, SEC, ECI' },
-  { module: 'AI Agent', sanskrit: 'Grama Sahayak', fn: 'Multilingual WhatsApp bot', sources: 'BHASHINI, Sarvam AI' },
+  { module: 'AI Agent', sanskrit: 'Grama Sahayak', fn: 'Multilingual WhatsApp bot', sources: 'Sarvam AI' },
   { module: 'Village Data', sanskrit: 'Grama Data', fn: 'Demographics, facilities', sources: 'Census, LGD, OGD' },
   { module: 'Farm Infra', sanskrit: 'Krishi Infra', fn: 'Dairy, fisheries, storage', sources: 'AHIDF, PMMSY, NLM' },
 ]
@@ -46,7 +46,7 @@ const dataSourceRows = [
   { source: 'LGD', ministry: 'Ministry of Panchayati Raj', access: 'Directory API' },
   { source: 'Soil Health Card', ministry: 'Dept of Agriculture', access: 'Farm-level Data API' },
   { source: 'PMAY-G', ministry: 'Ministry of Rural Development', access: 'Beneficiary Progress API' },
-  { source: 'BHASHINI', ministry: 'MeitY', access: 'Translation API' },
+  { source: 'Sarvam AI', ministry: 'Sarvam AI (Private)', access: 'Translation & Speech API' },
   { source: 'DigiLocker', ministry: 'MeitY', access: 'Document Verification API' },
 ]
 
@@ -102,7 +102,7 @@ const executiveBullets = [
   'Total budget: ₹2.47 Crore over 36 months',
   '3-phase rollout: Karnataka → 5 States → National',
   'Open source, API-first architecture',
-  '12+ Indian language support via BHASHINI',
+  '12+ Indian language support via Sarvam AI',
 ]
 
 const tableHeaderClass = 'sticky top-0 bg-saffron text-bg-primary font-heading font-bold text-sm px-4 py-3 text-left whitespace-nowrap'

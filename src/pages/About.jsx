@@ -21,7 +21,7 @@ const prototypes = [
   {
     name: 'WhatsApp AI Agent',
     description: 'Bilingual Kannada/English conversational agent for scheme information. Handles natural language queries about government benefits and eligibility.',
-    tech: ['Python', 'BHASHINI', 'WhatsApp API', 'NLU'],
+    tech: ['Python', 'Sarvam AI', 'WhatsApp API', 'NLU'],
     icon: Bot,
     status: 'Prototype',
   },
